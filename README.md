@@ -26,6 +26,7 @@ By design, this assessment contains more work than you will be able to complete 
 
 To implement this user story, you should:
 
+
 * Serve your application from the provided ExpressJS web server.
 * If using Angular:
   * Use the existing code in the `angular-client` directory and the dummy data to build the `topTenList` view in `angular-client/templates/topTenList.html`.
@@ -38,6 +39,7 @@ To implement this user story, you should:
 * Once you have your front end views working with the dummy data, refactor your front end to retrieve  seed data from the server rather than using the dummy data in the client side files.
 * **WHEN COMPLETE AND WORKING, make a commit that says `Part 1 Complete`**
 
+//-----
 ### Part 2 - Authors of Top Stories
 
 1. **As a user**, I want to be able to view the authors of the top ten stories, sorted by their karma (for now, this will be accomplished with the seed data retrieved from the server, not live data from the Hacker News API).
@@ -68,6 +70,7 @@ To implement this user and developer story, you should:
 * Add an additional npm script to the `package.json` so that a developer could run the worker.js file to populate the database instead of the seed.js script
 
 * **WHEN COMPLETE AND WORKING, make a commit that says `Part 3 Complete`**
+
 
 
 ### Part 4 - Author Search
